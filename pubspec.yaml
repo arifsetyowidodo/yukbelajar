@@ -1,0 +1,54 @@
+name: yukbelajar
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  audioplayers: ^0.10.0
+  firebase_messaging: ^7.0.3
+  test: ^1.15.7
+  http: ^0.12.0+2
+  
+    
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.1.4
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/ 
+     - assets/images/
+     - assets/images/hewan/
+     - assets/images/hewan/icon/
+     - assets/images/angka/
+     - assets/images/doa/
+     - assets/images/warna/
+     - assets/images/benda/
+     - assets/images/kendaraan/
+     - assets/audio/doa/
+     - assets/audio/angka/
+     - assets/audio/warna/
+     - assets/audio/kendaraan/
+     - assets/audio/hewan/
+     - assets/audio/benda/
+
+fonts:
+  - family: Poppins
+    fonts:
+      - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+        style: normal
+      - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+        weight: 700
+      - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Poppins/Poppins-Italic.ttf
+        style: italic
